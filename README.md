@@ -38,6 +38,8 @@ pip install -r requirements.txt
 ```
 5. Buka browser ke `http://localhost:8501`
 
+6. Deploy link: https://uas-visualiasi-data-spasio-temporal-2311537001.streamlit.app 
+
 ## Fitur
 - Slider tahun (kontrol temporal) 2000-2024 (+ 2025-2027 jika mode proyeksi aktif)
 - Peta interaktif (circle marker proporsional atau heatmap) dengan popup & tooltip
