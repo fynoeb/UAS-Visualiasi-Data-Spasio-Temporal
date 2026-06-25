@@ -1,0 +1,31 @@
+negara,rmse,mae,n_test
+Laos,8.88,5.12,6
+Finlandia,11.64,7.87,6
+Swedia,24.76,24.13,6
+Kanada,46.18,37.68,6
+Perancis,87.65,75.01,6
+Yunani,108.84,89.62,6
+Jerman,111.15,89.95,6
+Denmark,111.93,73.3,6
+Belgia,160.14,126.4,6
+Myanmar,280.31,248.56,6
+Meksiko,435.47,396.95,6
+Australia,780.26,680.18,6
+Amerika Serikat,789.88,612.01,6
+Selandia Baru,809.89,670.84,6
+Polandia,992.28,455.23,6
+Brunei Darussalam,1100.01,1069.34,6
+Italia,1434.46,1311.6,6
+Kamboja,1595.47,1131.4,6
+Belanda,1618.56,1193.75,6
+Singapura,1956.12,1512.2,6
+Spanyol,2886.76,2843.23,6
+Thailand,3368.25,2970.62,6
+Hongkong,3614.91,3390.43,6
+Taiwan,4556.2,4470.24,6
+Jepang,6292.72,5824.27,6
+Malaysia,9020.4,8835.74,6
+Korea Selatan,10214.12,9864.77,6
+Vietnam,11515.57,10073.66,6
+Filipina,12926.7,12054.6,6
+Tiongkok,70256.93,61695.37,6
