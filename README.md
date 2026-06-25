@@ -6,9 +6,8 @@ interaktif berbasis peta untuk mengeksplorasi tren volume ekspor Indonesia ke
 ke depan menggunakan model Random Forest Regressor (komponen bonus ML).
 
 ## Sumber Data
-Badan Pusat Statistik (BPS) — *Volume Ekspor Menurut Negara/Wilayah/Entitas
-Tertentu Tujuan Utama (Berat Bersih: Ribu Ton), 2000-2024*.
-https://www.bps.go.id/id/statistics-table/1/MTAwOSMx/
+Badan Pusat Statistik (BPS) — *Volume Ekspor Menurut Negara/Wilayah/Entitas tertentu Tujuan Utama (Berat bersih: ribu ton), 2000-2024*.
+[https://www.bps.go.id/id/statistics-table/1/MTAwOSMx/](https://www.bps.go.id/id/statistics-table/1/MTAwOSMx/volume-ekspor-menurut-negara-wilayah-entitas-tertentu-tujuan-utama--berat-bersih--ribu-ton---2000-2024.html) 
 
 ## Struktur Folder
 - `Volume_Ekspor_..._2000-2024.csv` — data mentah BPS
@@ -16,7 +15,7 @@ https://www.bps.go.id/id/statistics-table/1/MTAwOSMx/
 - `ml_forecasting.py` — (opsional) model Random Forest untuk proyeksi 2025-2027
 - `app.py` — dashboard Streamlit + Folium
 - `data_ekspor_clean.csv` — output preprocessing
-- `data_forecast.csv`, `eval_metrics.csv` — output ML (opsional)
+- `data_forecast.csv`, `eval_metrics.csv` — output ML
 
 ## Instalasi
 ```bash
@@ -27,11 +26,11 @@ pip install -r requirements.txt
 1. Pastikan file CSV mentah BPS ada di folder yang sama.
 2. Jalankan preprocessing (wajib):
 ```bash
-   python preprocessing.py
+   python3 preprocessing.py
 ```
 3. (Opsional, bonus ML) Jalankan forecasting:
 ```bash
-   python ml_forecasting.py
+   python3 ml_forecasting.py
 ```
 4. Jalankan aplikasi:
 ```bash
